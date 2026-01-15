@@ -1,0 +1,60 @@
+   /* Thiết lập phong cách cho toàn bộ trang web */
+        body {
+            font-family: "Times New Roman", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        #header {
+            background-color: #8eddff;
+            color:rgb(37, 6, 125);
+            text-align: center;
+            padding:20px;
+        }
+
+        /* Menu  */
+        #menu {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        #menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        #menu a:hover {
+            color: #3592f5;
+        }
+
+        /* Phần nội dung chính */
+        #content {
+            padding: 20px;
+            background-color: white;
+            width: 80%;
+            margin: 20px auto; 
+            border-radius: 8px;
+        }
+
+        /* Định dạng hình ảnh */
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border: 2px solid #ddd;
+        }
+
+        /*Footer */
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align:left;
+            padding: 15px;
+            margin-top: 20px;
+        }
